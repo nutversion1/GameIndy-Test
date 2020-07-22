@@ -105,6 +105,11 @@ namespace FindDecimalValueProgram
                 return;
             }
         }
+
+        public void HandleMainMenuButton()
+        {
+            Utility.GoToScene("Main Menu");
+        }
     }
 }
 

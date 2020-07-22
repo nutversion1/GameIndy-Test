@@ -214,6 +214,11 @@ namespace MasterMindGame
             resultText.text = "เก่งมาก! คุณทายถูกจากการทายทั้งหมด " + guessTotal + " ครั้ง";
             resultText.gameObject.SetActive(true);
         }
+
+        public void HandleMainMenuButton()
+        {
+            Utility.GoToScene("Main Menu");
+        }
     }
 }
 
