@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Find Decimal Value Program.unity
     guid: 4c2934a9d4f869e48a27119ccf61846e
+  - enabled: 1
+    path: Assets/Scenes/Permutation Program.unity
+    guid: 855ca3641ba2b6240a59980784a73e31
   m_configObjects: {}

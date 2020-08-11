@@ -9,9 +9,14 @@ public class MainMenuController : MonoBehaviour
         Utility.GoToScene("Master Mind Game");
     }
 
-    public void FindDecimalValueProgramButton()
+    public void HandleFindDecimalValueProgramButton()
     {
         Utility.GoToScene("Find Decimal Value Program");
+    }
+
+    public void HandlePermutationProgramButton()
+    {
+        Utility.GoToScene("Permutation Program");
     }
 
     public void HandleQuitButton()
